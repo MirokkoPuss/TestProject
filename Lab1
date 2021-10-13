@@ -1,1 +1,11 @@
-print('Vanya')
+import random
+import numpy as np
+Arr=list(np.random.random(100))
+
+print(Arr.index(max(Arr)),max(Arr))
+print(Arr.index(min(Arr)),min(Arr))
+
+x=sorted(Arr, reverse=True)
+y=sorted(Arr, reverse=False)
+print("+", x)
+print("-", x)
